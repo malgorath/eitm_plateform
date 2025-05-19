@@ -47,7 +47,7 @@ def explain_topic():
 
 
         text_to_explain = data['text_to_explain']
-        model_to_use = data.get('model_to_use', 'phi3:mini-4k-instruct') # Default model
+        model_to_use = data.get('model_to_use', 'llama3.2:3b') # Default model
         # Optional: Get other parameters like persona, explanation style, etc.
         # persona = data.get('persona', 'a helpful assistant')
 
